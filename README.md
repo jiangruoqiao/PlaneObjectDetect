@@ -8,7 +8,7 @@
 # 说明
 使用Seletive Search进行图像分割，对于遥感图像目标来说由于具有旋转，所以使用TI-Pooling网络进行目标分类
 # 使用
-直接运行jiayoujiDemo.py即可运行，使用前请确定图片目录正确
+直接运行jiayoujidemo.py即可运行，使用前请确定图片目录正确
 # 软件版本
 Python 2.7  
 Tensorflow-gpu 1.4  
