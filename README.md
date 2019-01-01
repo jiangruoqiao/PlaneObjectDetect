@@ -1,5 +1,10 @@
 # PlaneObjectDetect
 使用最容易的Two Stage策略进行飞机识别，本识别代码可以轻松移植到任何的目标检测任务中，只需要你重新训练CNN网络
+# 效果
+输入图像：
+![Aaron Swartz](https://raw.githubusercontent.com/jiangruoqiao/PlaneObjectDetect/master/ObjectDectectDemo/image/input.JPG)
+结果图像：
+![Aaron Swartz](https://raw.githubusercontent.com/jiangruoqiao/PlaneObjectDetect/master/ObjectDectectDemo/image/result.png)
 # 说明
 使用Seletive Search进行图像分割，对于遥感图像目标来说由于具有旋转，所以使用TI-Pooling网络进行目标分类
 # 使用
