@@ -6,7 +6,8 @@
 结果图像：
 ![Aaron Swartz](https://raw.githubusercontent.com/jiangruoqiao/PlaneObjectDetect/master/ObjectDectectDemo/image/result.png)
 # 说明
-使用Seletive Search进行图像分割，对于遥感图像目标来说由于具有旋转，所以使用TI-Pooling网络进行目标分类
+使用Seletive Search进行图像分割，对于遥感图像目标来说由于具有旋转，所以使用TI-Pooling网络进行目标分类  
+同时为了解决Selective Search算法使用单一的sigam值无法完美将目标分割出来的问题，本项目使用多线程同时对在多个敏感尺度和高斯核下进行图像分割，完美解决这一问题，如有需要可以再开多几个线程进行图像分割
 # 使用
 直接运行jiayoujidemo.py即可运行，使用前请确定图片目录正确
 # 软件版本
